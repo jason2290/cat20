@@ -1,5 +1,8 @@
 # cat20
 先至cli資料夾中  
+ ```
+cd cat-token-box/packages/cli
+ ```
 取得金鑰安裝後  
 先授權
  ```
@@ -13,7 +16,10 @@ chmod +x "median1or2v2.sh"
 chmod +x "fast.sh"
 cd ..
  ```
-挑一種策略執行
+## 一般模式
+挑一種策略執行  
+0,1,2,3分別會對應到當前未過塊的median fee  
+<img src="截圖 2024-09-13 上午10.17.02.jpg" width="70%">  
  ```
 ./aspwe/"median3.sh"
  ```
@@ -24,15 +30,19 @@ cd ..
 ./aspwe/"median1.sh"
  ```
  ```
+./aspwe/"median0.sh"
+ ```
+## 機動調整模式
+median1or2:平常使用1，gas高於指定值時會切換成2(預設為4300)  
+median1or2v2:上述功能外，增加隨著gas增加速度滾動多給fee的功能  
+
+ ```
 ./aspwe/"median1or2.sh"
  ```
  ```
 ./aspwe/"median1or2v2.sh"
  ```
- ```
-./aspwe/"median0.sh"
- ```
-常用錢包指令
+## 常用錢包指令
  ```
 cd cat-token-box/packages/cli
  ```
@@ -47,7 +57,7 @@ sudo yarn cli mint -i 45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ec
 yarn cli wallet balances
  ```
 
-新伺服器一鍵安裝
+## 新伺服器一鍵安裝
  ```
 sudo apt-get update
 sudo apt-get install npm -y
@@ -63,7 +73,7 @@ sudo yarn build
 cd packages/cli
  ```
   
-設定調整
+## 設定調整&魔改cli
  ```
 nano config.json
  ```
@@ -80,7 +90,7 @@ cd ..
 cd ..
 cd ..
  ```
-重置更新腳本  
+## 重置更新腳本  
  ```
 rm -r aspwe
  ```
