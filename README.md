@@ -8,6 +8,7 @@ chmod +x "median3.sh"
 chmod +x "median2.sh"
 chmod +x "median1.sh"
 chmod +x "median0.sh"
+chmod +x "median1or2.sh"
 chmod +x "fast.sh"
 cd ..
  ```
