@@ -21,17 +21,12 @@ cd ..
 0,1,2,3分別會對應到當前未過塊的median fee  
 <img src="截圖 2024-09-13 上午10.17.02.jpg" width="70%">  
  ```
-./aspwe/"median3.sh"
- ```
- ```
 ./aspwe/"median2.sh"
  ```
  ```
 ./aspwe/"median1.sh"
  ```
- ```
-./aspwe/"median0.sh"
- ```
+以此類推  
 ## 機動調整模式
 median1or2:平常使用1，gas高於指定值時會切換成2(預設為4300)  
 median1or2v2:上述功能外，增加隨著gas增加速度滾動多給fee的功能  
