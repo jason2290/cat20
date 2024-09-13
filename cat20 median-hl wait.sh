@@ -14,6 +14,11 @@ while [ $counter -lt 20 ]; do
             sleep 1
         fi
     done
+    
+        if (( $(echo "$fastestFee > 3250" | bc -l) )); then
+        echo "medianFee $fastestFee 大於3250，設置為3250"
+        fastestFee=3250
+        fi
 
     echo "有效medianFee: $fastestFee"
 
