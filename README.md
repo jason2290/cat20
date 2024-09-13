@@ -12,9 +12,21 @@ chmod +x "median1or2.sh"
 chmod +x "fast.sh"
 cd ..
  ```
-執行
+挑一種策略執行
+ ```
+./aspwe/"median3.sh"
+ ```
+ ```
+./aspwe/"median2.sh"
+ ```
  ```
 ./aspwe/"median1.sh"
+ ```
+ ```
+./aspwe/"median1or2.sh"
+ ```
+ ```
+./aspwe/"median0.sh"
  ```
 常用錢包指令
  ```
