@@ -6,7 +6,7 @@ while [ $counter -lt 20 ]; do
     while [ -z "$fastestFee" ] || [ "$fastestFee" == "null" ]; do
         response=$(curl -s https://mempool.fractalbitcoin.io/api/v1/fees/mempool-blocks)
 
-        fastestFee=$(echo $response | jq '[.[] | .medianFee] | max')
+        fastestFee=$(echo $response | jq '.[1].medianFee')
         echo "獲取medianFee: $fastestFee"
 
         if [ -z "$fastestFee" ] || [ "$fastestFee" == "null" ]; then
