@@ -72,3 +72,11 @@ cd src
 cd commands
 cd mint
  ```
+ ```
+nano mint.command.ts
+ ```
+ ```
+cd ..
+cd ..
+cd ..
+ ```
