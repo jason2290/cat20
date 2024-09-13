@@ -21,6 +21,8 @@ sudo yarn build
 
 cd packages/cli
  ```
+  
+設定調整
  ```
 nano config.json
  ```
