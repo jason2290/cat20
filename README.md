@@ -40,6 +40,9 @@ cd ..
  ```
 錢包指令
  ```
+cd cat-token-box/packages/cli
+ ```
+ ```
 sudo yarn cli wallet create
 yarn cli wallet address
  ```
