@@ -99,3 +99,7 @@ docker logs --since 10s -f tracker
 sudo docker restart tracker
 sudo docker restart tracker-bitcoind-1
  ```
+本地ip
+ ```
+127.0.0.1
+ ```
