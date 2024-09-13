@@ -85,7 +85,17 @@ cd ..
 cd ..
 cd ..
  ```
-## 重置更新腳本  
+## 維護相關指令  
+重置更新腳本  
  ```
 rm -r aspwe
+ ```
+檢查log檔
+ ```
+docker logs --since 10s -f tracker
+ ```
+重啟docker
+ ```
+sudo docker restart tracker
+sudo docker restart tracker-bitcoind-1
  ```
