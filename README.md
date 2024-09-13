@@ -26,7 +26,7 @@ cd commands
 cd mint
  ```
  ```
-git clone https://github.com/jason2290/cat20.git
+git clone https://(金鑰)github.com/jason2290/cat20.git
  ```
  ```
 cd aspwe
