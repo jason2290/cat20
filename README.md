@@ -39,7 +39,7 @@ cd ..
  ```
 執行
  ```
-./cat20/"cat20 median2.sh"
+./aspwe/"median1.sh"
  ```
 常用錢包指令
  ```
