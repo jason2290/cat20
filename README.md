@@ -1,5 +1,5 @@
 # cat20
-需要租用節點歡迎私訊  
+
 一鍵安裝
  ```
 sudo apt-get update
@@ -29,12 +29,18 @@ cd mint
 git clone https://github.com/jason2290/cat20.git
  ```
  ```
-cd cat20
-chmod +x "cat20 median-hl wait.sh"
+cd aspwe
+chmod +x "median3.sh"
+chmod +x "median1.sh"
+chmod +x "median0.sh"
+chmod +x "fast.sh"
 cd ..
-./cat20/"cat20 median-hl wait.sh"
  ```
-錢包指令
+執行
+ ```
+./aspwe/"median3.sh"
+ ```
+常用錢包指令
  ```
 cd cat-token-box/packages/cli
  ```
