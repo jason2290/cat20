@@ -31,6 +31,7 @@ git clone https://(金鑰)github.com/jason2290/cat20.git
  ```
 cd aspwe
 chmod +x "median3.sh"
+chmod +x "median2.sh"
 chmod +x "median1.sh"
 chmod +x "median0.sh"
 chmod +x "fast.sh"
@@ -38,7 +39,7 @@ cd ..
  ```
 執行
  ```
-./aspwe/"median3.sh"
+./cat20/"cat20 median2.sh"
  ```
 常用錢包指令
  ```
