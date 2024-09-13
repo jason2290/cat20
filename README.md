@@ -1,33 +1,7 @@
 # cat20
-
-一鍵安裝
- ```
-sudo apt-get update
-sudo apt-get install npm -y
-sudo npm install n -g
-sudo n stable
-sudo npm i -g yarn
-
-git clone https://github.com/CATProtocol/cat-token-box
-    cd cat-token-box
-sudo yarn install
-sudo yarn build
-
-cd packages/cli
- ```
-  
-設定調整
- ```
-nano config.json
- ```
- ```
-cd src
-cd commands
-cd mint
- ```
- ```
-git clone https://(金鑰)github.com/jason2290/cat20.git
- ```
+先至cli資料夾中  
+取得金鑰安裝後  
+先授權
  ```
 cd aspwe
 chmod +x "median3.sh"
@@ -55,5 +29,29 @@ sudo yarn cli mint -i 45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ec
  ```
 yarn cli wallet balances
  ```
+
+新伺服器一鍵安裝
  ```
+sudo apt-get update
+sudo apt-get install npm -y
+sudo npm install n -g
+sudo n stable
+sudo npm i -g yarn
+
+git clone https://github.com/CATProtocol/cat-token-box
+    cd cat-token-box
+sudo yarn install
+sudo yarn build
+
+cd packages/cli
+ ```
+  
+設定調整
+ ```
+nano config.json
+ ```
+ ```
+cd src
+cd commands
+cd mint
  ```
