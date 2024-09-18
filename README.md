@@ -8,6 +8,9 @@ cd cat-token-box/packages/cli
 rm -rf aspwe
  ```
 取得金鑰安裝後  
+ ```
+git clone https://（給你的金鑰）@github.com/jason2290/aspwe.git
+ ```
 先授權
  ```
 cd aspwe
