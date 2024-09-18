@@ -3,6 +3,10 @@
  ```
 cd cat-token-box/packages/cli
  ```
+若你是要重置更新腳本(首次安裝則跳過)  
+ ```
+rm -rf aspwe
+ ```
 取得金鑰安裝後  
 先授權
  ```
@@ -88,7 +92,7 @@ cd ..
 ## 維護相關指令  
 重置更新腳本  
  ```
-rm -r aspwe
+rm -rf aspwe
  ```
 檢查log檔
  ```
