@@ -32,10 +32,8 @@ sudo ./aspwe/"median1.sh"
 ## 機動調整模式
 median1or2:平常使用1，gas高於指定值時會切換成2(預設為4300)  
 median1or2v2:上述功能外，增加隨著gas增加速度滾動多給fee的功能  
-
- ```
-sudo ./aspwe/"median1or2.sh"
- ```
+**針對FBull更新版**  
+median0v3:平常使用0至1之間的gas，比例依鏈上gas情況調整，追加gas下限1000  
  ```
 sudo ./aspwe/"median1or2v2.sh"
  ```
