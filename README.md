@@ -43,6 +43,8 @@ cd cat-token-box/packages/cli
  ```
  ```
 sudo yarn cli wallet create
+ ```
+ ```
 sudo yarn cli wallet address
  ```
  ```
