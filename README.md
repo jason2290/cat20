@@ -18,6 +18,11 @@ chmod +x "median1or2v2.sh"
 chmod +x "median0v3.sh"
 cd ..
  ```
+安裝環境
+ ```
+sudo apt-get update
+sudo apt-get install jq
+ ```
 ## 一般模式
 挑一種策略執行  
 0,1,2,3分別會對應到當前未過塊的median fee  
