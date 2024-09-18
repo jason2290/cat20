@@ -7,13 +7,7 @@ cd cat-token-box/packages/cli
 先授權
  ```
 cd aspwe
-chmod +x "median3.sh"
-chmod +x "median2.sh"
-chmod +x "median1.sh"
-chmod +x "median0.sh"
-chmod +x "median1or2.sh"
 chmod +x "median1or2v2.sh"
-chmod +x "fast.sh"
 cd ..
  ```
 ## 一般模式
