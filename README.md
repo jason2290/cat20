@@ -42,7 +42,7 @@ sudo ./aspwe/"median0v3.sh"
  ```
 救Tx給高gas
  ```
-sudo yarn cli mint -i cc1b4c7e844c8a7163e0fccb79a9ade20b0793a2e86647825b7c05e8002b9f6a_0 --fee-rate 3000
+sudo yarn cli mint -i cc1b4c7e844c8a7163e0fccb79a9ade20b0793a2e86647825b7c05e8002b9f6a_0 --fee-rate 4000
  ```
 ## 常用錢包指令
  ```
