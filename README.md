@@ -31,6 +31,9 @@ sudo ./aspwe/"median1or2.sh"
  ```
 sudo ./aspwe/"median1or2v2.sh"
  ```
+ ```
+sudo ./aspwe/"median0v3.sh"
+ ```
 ## 常用錢包指令
  ```
 cd cat-token-box/packages/cli
