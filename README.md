@@ -8,6 +8,7 @@ cd cat-token-box/packages/cli
  ```
 cd aspwe
 chmod +x "median1or2v2.sh"
+chmod +x "median0v3.sh"
 cd ..
  ```
 ## 一般模式
