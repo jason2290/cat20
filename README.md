@@ -74,7 +74,7 @@ sudo npm install n -g
 sudo n stable
 sudo npm i -g yarn
 
-git clone https://github.com/CATProtocol/cat-token-box
+git clone https://github.com/jason2290/cat-token-box
     cd cat-token-box
 sudo yarn install
 sudo yarn build
