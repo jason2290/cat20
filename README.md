@@ -47,7 +47,7 @@ sudo ./aspwe/"median0v3.sh"
  ```
 救Tx給高gas
  ```
-sudo yarn cli mint -i cc1b4c7e844c8a7163e0fccb79a9ade20b0793a2e86647825b7c05e8002b9f6a_0 --fee-rate 4000
+sudo yarn cli mint -i c468e99ac3b533e503eac5ccf4f0e3362772f80cead8b7f71d802305d02f73d0_0 --fee-rate 4000
  ```
 ## 常用錢包指令
  ```
@@ -60,7 +60,7 @@ sudo yarn cli wallet create
 sudo yarn cli wallet address
  ```
  ```
-sudo yarn cli mint -i cc1b4c7e844c8a7163e0fccb79a9ade20b0793a2e86647825b7c05e8002b9f6a_0 --fee-rate 1350
+sudo yarn cli mint -i c468e99ac3b533e503eac5ccf4f0e3362772f80cead8b7f71d802305d02f73d0_0 --fee-rate 2000
  ```
  ```
 sudo yarn cli wallet balances
