@@ -122,13 +122,12 @@ sudo docker restart tracker-bitcoind-1
  ```
  ```
 function clickMineButton() {
-    // 查找包含 'Mine with Web GPU' 文本的按钮
     const buttons = document.querySelectorAll('button');
     let clicked = false;
 
     buttons.forEach(button => {
-        if (button.textContent.trim() === 'Mine with Web GPU') {
-            button.click();  // 点击按钮
+        if (button.textContent.trim() === '1. Mine with Web GPU') {
+            button.click(); 
             console.log('Clicked the "Mine with Web GPU" button');
             clicked = true;
         }
@@ -139,5 +138,5 @@ function clickMineButton() {
     }
 }
 
-const intervalId = setInterval(clickMineButton, 1000);
+const intervalId = setInterval(clickMineButton, 10000);
  ```
