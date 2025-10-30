@@ -3,7 +3,7 @@
  ```
 cd cat-token-box/packages/cli
  ```
-若你是要重置更新腳本(首次安裝則跳過)  
+若你是要重置更新腳本(首次安裝則跳過)    
  ```
 rm -rf aspwe
  ```
